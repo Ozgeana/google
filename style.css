@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li {
+    text-align: center;
+    padding: 17px 12px;
+}
+
+a {
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+.small-text {
+    font-size: 0.9rem;
+}
+
+.menu-bg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+ 
+.menu-bg:hover {
+ background-color: rgb(172, 166, 166);
+ cursor: pointer;
+
+}
+.menu-button {
+    width: 15px;
+}
+
+.profile-pic {
+    margin-top: 6px;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.search-wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.search-block {
+    background-color: #EEEEEE;
+    padding: 0 100%;
+}
+p{
+text-align: center;
+margin-top: 3px;
+margin-bottom: 2.5px;
+}
+.buttons {
+width: 350px;
+margin-left: auto;
+margin-top: 3px;
+margin-bottom: 2.5px;
+display: flexbox;
+}
+
+button {
+border: 1px solid transparent;
+padding: 8px 12px;
+background-color: #f8f9fa;
+border-radius: 5px ;
+}
+
+button:hover {
+border: 1px solid #eee;
+box-shadow: 0 0 1px 1px;
+cursor: pointer;
+}
+form {
+    position: relative;
+} 
+
+input {
+width: 500px;
+height: 25px;
+padding-left: 50px;
+font-size: 1.2rem;
+border: 1px solid #d3d3d3;
+}
+
+input:focus{
+    outline: none;
+}
+
+.container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 0.9fr 0.5fr 1fr;
+    gap: 2px;
+  }
+  
+  .container div {
+    padding: 12px;
+    width: 100%;
+    margin: 2px 0;
+  }
+  
+  .container div:nth-child(1) {
+    background: #99eae2;
+  }
+  
+  .container div:nth-child(2) {
+    padding: 8px;
+    font-size: small;
+    background: #45d9ca;
+  }
+  .container div:nth-child(3) {
+    padding: 4px;
+    font-size: 13px;
+    background: #26baab;
+  }
+  input[name="emailaddr"] {
+    padding: 1px 2px;
+    width: 15rem;
+    height: 1.6rem;
+  }
+  
+  /*footer*/
+  footer p {
+    text-align: center;
+    font-size: small;
+  }
+  /*subscribe button*/ 
+  .button-2{
+    padding: 1px 6px;
+    margin-right: 10px;
+    margin-top: 2px;
+    border: 1px solid transparent;
+    background-color: #f8f9fa;
+    border-radius: 2px ;
+  }
